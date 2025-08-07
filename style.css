@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 1px solid red; */
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-color: #eff2f7; */
+    /* font-family: "Merienda", serif; */
+    /* font-family: "Nunito Sans", serif; */
+    color: #666666;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    /* -webkit-font-smoothing: antialiased; */
+    /* font-optical-sizing: auto; */
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 2;
+}
+
+h3 {
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    opacity: 0.9;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    color: #535252;
+    /* opacity: 0.9; */
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 2;
+}
+
+h4 {
+    font-family: "Inter", sans-serif;
+    color: #535252;
+    /* opacity: 0.9; */
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+    text-wrap: balance;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+:root {
+    --primaryColor: #14476c;
+    --secondaryColor: #37c2f1;
+    --darkColor: #333333;
+    --lightColor: #ffffff;
+    --regularFont: 1.6rem;
+    --headingFont: 2.5rem;
+    --ffPrimary: "Nunito Sans", serif;
+    --ffSecondary: "Merienda", serif;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 40fr 40fr 20fr;
+    padding: 0rem 4rem;
+    gap: 5rem;
+    /* gap: 1rem; */
+}
+
+.dflex {
+    /* display: flex; */
+    align-items: start;
+    justify-content: center;
+
+}
+
+body {
+    background: linear-gradient(135deg, #f8fbff 0%, #e8f4fd 100%);
+}
+
+/* header code starts*/
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+.componentSpacing {
+    padding: 4rem 0rem;
+}
+
+.screenSize {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.name {
+    background: linear-gradient(135deg, var(--primaryColor) 0%, var(--secondaryColor) 100%);
+    color: var(--lightColor);
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+/* header code end*/
+
+/* main code end*/
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+.cardHeader {
+    border-bottom: 1px solid #37c2f1;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    border-width: 0.5rem;
+}
+
+.length-1 {
+    margin-right: 34rem;
+}
+
+.length-2 {
+    margin-right: 34rem;
+}
+
+.length-3 {
+    margin-right: 9rem;
+}
+
+.cardMain {
+    /* border: 0.1rem solid #37c2f1; */
+    background: var(--lightColor);
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 8px 9px rgba(20, 71, 108, 0.15);
+    /* border-left: 4px solid var(--secondaryColor); */
+    padding: 1rem;
+    /* width: 80%; */
+    /* height: auto; */
+}
+
+.cardMain figure img {
+    width: 100%;
+    height: 239px;
+}
+
+
+/* responsive */
+
+
+
+/* TABLET RESPONSIVE CODE */
+@media (min-width: 577px) and (max-width: 768px) {}
+
+/* @media (min-width: 769px) and (max-width: 992px) */
+@media (min-width:769px) and (max-width: 992px) {}
+
+/* @media (min-width: 993px) and (max-width: 1200px) */
+@media (min-width:993px) and (max-width:1200px) {}
+
+/* @media (min-width: 1200px)  */
+@media (width:1200px) {}
+
+
+@media (max-width: 576px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0rem 2rem;
+    }
+
+}
