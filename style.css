@@ -110,13 +110,12 @@ svg {
 
 .dflex {
     /* display: flex; */
-    align-items: start;
-    justify-content: center;
-
+    /* align-items: start; */
+    /* justify-content: center; */
 }
 
 body {
-    background: linear-gradient(135deg, #f8fbff 0%, #e8f4fd 100%);
+    /* background: linear-gradient(135deg, #f8fbff 0%, #e8f4fd 100%); */
 }
 
 /* header code starts*/
@@ -159,15 +158,15 @@ main {
 }
 
 .length-1 {
-    margin-right: 34rem;
+    /* margin-right: 34rem; */
 }
 
 .length-2 {
-    margin-right: 34rem;
+    /* margin-right: 34rem; */
 }
 
 .length-3 {
-    margin-right: 9rem;
+    /* margin-right: 9rem; */
 }
 
 .cardMain {
