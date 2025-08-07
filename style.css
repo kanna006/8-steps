@@ -115,7 +115,7 @@ svg {
 }
 
 body {
-    /* background: linear-gradient(135deg, #f8fbff 0%, #e8f4fd 100%); */
+    background: linear-gradient(135deg, #d0e2f7 0%, #e8f4fd 100%);
 }
 
 /* header code starts*/
@@ -136,7 +136,6 @@ header {
 
 .name {
     background: linear-gradient(135deg, var(--primaryColor) 0%, var(--secondaryColor) 100%);
-    color: var(--lightColor);
     text-align: center;
     margin-bottom: 4rem;
 }
@@ -158,15 +157,15 @@ main {
 }
 
 .length-1 {
-    /* margin-right: 34rem; */
+    margin-right: 34rem;
 }
 
 .length-2 {
-    /* margin-right: 34rem; */
+    margin-right: 34rem;
 }
 
 .length-3 {
-    /* margin-right: 9rem; */
+    margin-right: 9rem;
 }
 
 .cardMain {
